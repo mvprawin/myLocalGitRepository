@@ -13,6 +13,12 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemProperties>
+                    <property>
+                        <name>allure.results.directory</name>
+                        <value>${allure.results.directory}</value>
+                    </property>
+                </systemProperties>
                 </configuration>
             </plugin>
 
@@ -41,6 +47,7 @@
     </build>
       <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <allure.results.directory>target/allure-results</allure.results.directory>
 </properties>
 	<dependencies>
 		<dependency>
