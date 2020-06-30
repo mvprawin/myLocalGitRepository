@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.qa.apptest.QatarAirways",
+    "children" : [ {
+      "name" : "appTest",
+      "uid" : "bd6ee7732c040d71",
+      "parentUid" : "7994f546db7b58c4282014455421048b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1593507258246,
+        "stop" : 1593507307351,
+        "duration" : 49105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.qa.apptest.QatarAirways"
+  } ]
+}

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 71.446 s <<< FAILURE! - in TestSuite
+appTest(com.qa.apptest.QatarAirways)  Time elapsed: 49.13 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PCEHKV8', ip: '192.168.43.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {VERSION: 8.0.0, appActivity: com.m.qr.activities.misc.QR..., appPackage: com.m.qr, autoAcceptAlerts: true, databaseEnabled: false, desired: {VERSION: 8.0.0, appActivity: com.m.qr.activities.misc.QR..., appPackage: com.m.qr, autoAcceptAlerts: true, device ID: c1cbd64c, deviceName: G2299, noReset: true, platformName: android, unlockKey: 6666, unlockType: pin}, device ID: c1cbd64c, deviceApiLevel: 26, deviceManufacturer: SONY, deviceModel: G2299, deviceName: c1cbd64c, deviceScreenDensity: 320, deviceScreenSize: 720x1280, deviceUDID: c1cbd64c, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, statBarHeight: 48, takesScreenshot: true, unlockKey: 6666, unlockType: pin, viewportRect: {height: 1136, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: e3f3f16c-faad-44bd-aa85-381cd85214a6
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text= 'Booking reference or e-ticket number']}
+	at com.qa.apptest.QatarAirways.appTest(QatarAirways.java:62)
+

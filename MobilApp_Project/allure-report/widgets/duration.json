@@ -1,0 +1,11 @@
+[ {
+  "uid" : "bd6ee7732c040d71",
+  "name" : "appTest",
+  "time" : {
+    "start" : 1593507258246,
+    "stop" : 1593507307351,
+    "duration" : 49105
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

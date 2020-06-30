@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-PCEHKV8",
+    "children" : [ {
+      "name" : "8416@DESKTOP-PCEHKV8.main(1)",
+      "children" : [ {
+        "name" : "appTest",
+        "uid" : "bd6ee7732c040d71",
+        "parentUid" : "4ca4803918697d0d6181738aaad23fbe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593507258246,
+          "stop" : 1593507307351,
+          "duration" : 49105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ca4803918697d0d6181738aaad23fbe"
+    } ],
+    "uid" : "83e10c894cca9e8e029ef1120ac139ee"
+  } ]
+}

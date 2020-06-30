@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://localhost:8080/job/MobileappTest/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]
